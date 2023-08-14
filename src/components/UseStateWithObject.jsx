@@ -8,7 +8,6 @@ const UseStateWithObject = () => {
   return (
     <div>
         <h1>UseState With Object</h1>
-        {/* <input type="text" onChange={(e) => setInfo({...info, name: e.target.value})}/> */}
         <form>
             <input value={info.name} onChange={(e) => setInfo({...info, name: e.target.value})} />
             <input value={info.age} onChange={(e) => setInfo({...info, age: e.target.value})} />
