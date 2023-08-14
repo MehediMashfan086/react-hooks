@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 const UseStateWithObject = () => {
     const[info, setInfo] = useState({
-        name: '',
-        age: null
+        name: "",
+        age: ""
     })
   return (
     <div>
