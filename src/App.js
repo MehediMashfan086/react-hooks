@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from'react-router-dom';
-import UseState from './components/UseState';
-import UseStatePrevState from './components/UseStatePrevState';
-import UseStateWithObject from './components/UseStateWithObject';
-import UseStateWithArray from './components/UseStateWithArray';
+import UseState from './components/useState/UseState';
+import UseStatePrevState from './components/useState/UseStatePrevState';
+import UseStateWithObject from './components/useState/UseStateWithObject';
+import UseStateWithArray from './components/useState/UseStateWithArray';
 
 function App() {
   return (
