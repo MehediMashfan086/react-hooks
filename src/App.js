@@ -1,7 +1,8 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from'react-router-dom';
 import UseState from './components/UseState';
-import UseState_prevState from './components/UseState_prevState';
+import UseStatePrevState from './components/UseStatePrevState';
+import UseStateWithObject from './components/UseStateWithObject';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<UseState />} />
         <Route path="/usestate" element={<UseState />} />
-        <Route path="/usestate-prevstate" element={<UseState_prevState />} />
+        <Route path="/usestate-prevstate" element={<UseStatePrevState />} />
+        <Route path="/usestate-object" element={<UseStateWithObject />} />
       </Routes>
       </BrowserRouter>
     </div>

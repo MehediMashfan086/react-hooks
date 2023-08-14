@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const UseState_prevState = () => {
+const UseStatePrevState = () => {
     const[count, setCount] = useState(0)
 
     const incrementTen = () => {
@@ -10,11 +10,11 @@ const UseState_prevState = () => {
     }
   return (
     <div>
-        <h1>UseState_prevState</h1>
+        <h1>UseState PrevState</h1>
         <h4>Count: {count}</h4>
         <button onClick={() => incrementTen()}>Increment</button>
     </div>
   )
 }
 
-export default UseState_prevState
+export default UseStatePrevState
