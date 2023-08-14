@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from'react-router-dom';
 import UseState from './components/UseState';
 import UseStatePrevState from './components/UseStatePrevState';
 import UseStateWithObject from './components/UseStateWithObject';
+import UseStateWithArray from './components/UseStateWithArray';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/usestate" element={<UseState />} />
         <Route path="/usestate-prevstate" element={<UseStatePrevState />} />
         <Route path="/usestate-object" element={<UseStateWithObject />} />
+        <Route path="/usestate-array" element={<UseStateWithArray />} />
       </Routes>
       </BrowserRouter>
     </div>
